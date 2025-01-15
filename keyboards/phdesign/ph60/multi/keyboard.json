@@ -4,6 +4,7 @@
     "maintainer": "ph-design",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
+    "debounce": "4",
     "features": {
         "bootmagic": true,
         "command": false,
@@ -12,6 +13,9 @@
         "mousekey": true,
         "nkro": true
     },
+    "build": {
+        "debounce_type": "sym_eager_defer_pk"
+        },
     "matrix_pins": {
         "cols": ["GP0", "GP1", "GP2", "GP3", "GP4", "GP5", "GP6", "GP7", "GP8", "GP9", "GP10", "GP11", "GP12", "GP13"],
         "rows": ["GP14", "GP15", "GP18", "GP19", "GP20"]
