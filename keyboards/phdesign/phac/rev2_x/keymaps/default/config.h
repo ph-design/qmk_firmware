@@ -1,0 +1,12 @@
+#define ENCODER_MAP_KEY_DELAY 0
+#define ENCODER_RESOLUTIONS { 4, 1 }
+
+#define MOUSEKEY_INERTIA
+
+#define MK_3_SPEED
+#define MK_MOMENTARY_ACCEL
+
+#define MK_C_OFFSET_2 0
+#define MK_C_OFFSET_1 1
+#define MK_C_OFFSET_0 8
+#define DEBOUNCE 2
